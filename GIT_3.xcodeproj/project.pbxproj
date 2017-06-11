@@ -13,6 +13,7 @@
 		3A8C11EA1EED35C80042880E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8C11E81EED35C80042880E /* Main.storyboard */; };
 		3A8C11EC1EED35C80042880E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A8C11EB1EED35C80042880E /* Assets.xcassets */; };
 		3A8C11EF1EED35C80042880E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8C11ED1EED35C80042880E /* LaunchScreen.storyboard */; };
+		3A8C11F81EED37E90042880E /* BUGAGAController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8C11F71EED37E90042880E /* BUGAGAController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		3A8C11EB1EED35C80042880E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A8C11EE1EED35C80042880E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A8C11F01EED35C80042880E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A8C11F61EED37E90042880E /* BUGAGAController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUGAGAController.h; sourceTree = "<group>"; };
+		3A8C11F71EED37E90042880E /* BUGAGAController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUGAGAController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				3A8C11E31EED35C80042880E /* AppDelegate.m */,
 				3A8C11E51EED35C80042880E /* ViewController.h */,
 				3A8C11E61EED35C80042880E /* ViewController.m */,
+				3A8C11F61EED37E90042880E /* BUGAGAController.h */,
+				3A8C11F71EED37E90042880E /* BUGAGAController.m */,
 				3A8C11E81EED35C80042880E /* Main.storyboard */,
 				3A8C11EB1EED35C80042880E /* Assets.xcassets */,
 				3A8C11ED1EED35C80042880E /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A8C11F81EED37E90042880E /* BUGAGAController.m in Sources */,
 				3A8C11E71EED35C80042880E /* ViewController.m in Sources */,
 				3A8C11E41EED35C80042880E /* AppDelegate.m in Sources */,
 				3A8C11E11EED35C80042880E /* main.m in Sources */,
