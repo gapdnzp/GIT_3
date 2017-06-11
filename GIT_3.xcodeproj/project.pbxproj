@@ -14,6 +14,7 @@
 		3A8C11EC1EED35C80042880E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A8C11EB1EED35C80042880E /* Assets.xcassets */; };
 		3A8C11EF1EED35C80042880E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8C11ED1EED35C80042880E /* LaunchScreen.storyboard */; };
 		3A8C11F81EED37E90042880E /* BUGAGAController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8C11F71EED37E90042880E /* BUGAGAController.m */; };
+		844343AB1EED3A64004B1173 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 844343AA1EED3A64004B1173 /* MyClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		3A8C11F01EED35C80042880E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A8C11F61EED37E90042880E /* BUGAGAController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUGAGAController.h; sourceTree = "<group>"; };
 		3A8C11F71EED37E90042880E /* BUGAGAController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUGAGAController.m; sourceTree = "<group>"; };
+		844343A91EED3A64004B1173 /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		844343AA1EED3A64004B1173 /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				3A8C11ED1EED35C80042880E /* LaunchScreen.storyboard */,
 				3A8C11F01EED35C80042880E /* Info.plist */,
 				3A8C11DF1EED35C80042880E /* Supporting Files */,
+				844343A91EED3A64004B1173 /* MyClass.h */,
+				844343AA1EED3A64004B1173 /* MyClass.m */,
 			);
 			path = GIT_3;
 			sourceTree = "<group>";
@@ -157,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A8C11F81EED37E90042880E /* BUGAGAController.m in Sources */,
+				844343AB1EED3A64004B1173 /* MyClass.m in Sources */,
 				3A8C11E71EED35C80042880E /* ViewController.m in Sources */,
 				3A8C11E41EED35C80042880E /* AppDelegate.m in Sources */,
 				3A8C11E11EED35C80042880E /* main.m in Sources */,
@@ -320,6 +326,7 @@
 				3A8C11F51EED35C80042880E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
